@@ -1,5 +1,5 @@
 ---
-title: Additional Services
+title: Platform Services
 review:
     comment: ''
     date: '2018-01-02'
@@ -21,7 +21,7 @@ confluence:
     shortlink: 54D1
     shortlink_source: 'https://doc.nuxeo.com/x/54D1'
     source_link: /display/NXDOC/Additional+Services
-tree_item_index: 1900
+tree_item_index: 700
 history:
     -
         author: Manon Lumeau

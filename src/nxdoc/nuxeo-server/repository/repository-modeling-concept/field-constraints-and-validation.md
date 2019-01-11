@@ -22,7 +22,7 @@ confluence:
     shortlink: yIBkAQ
     shortlink_source: 'https://doc.nuxeo.com/x/yIBkAQ'
     source_link: /display/NXDOC/Field+Constraints+and+Validation
-tree_item_index: 300
+tree_item_index: 100
 history:
     -
         author: Manon Lumeau

@@ -112,7 +112,7 @@ The main concepts that are used to design a workflow are listed below:
 
 ### Transition
 
-{{{multiexcerpt 'transition-workflow' page='GLOS:Transition'}}}
+{{{multiexcerpt 'transition-workflow' space='glos' page='Transition'}}}
 
 ### Graph
 

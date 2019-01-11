@@ -1,5 +1,5 @@
 ---
-title: Nuxeo Core Import / Export API
+title: Import / Export API
 review:
     comment: ''
     date: '2017-12-14'

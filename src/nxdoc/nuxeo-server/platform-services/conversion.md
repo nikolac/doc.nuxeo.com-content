@@ -23,7 +23,7 @@ confluence:
     shortlink: PYMlAQ
     shortlink_source: 'https://doc.nuxeo.com/x/PYMlAQ'
     source_link: /display/NXDOC/Conversion
-tree_item_index: 300
+tree_item_index: 40
 history:
     -
         author: Manon Lumeau

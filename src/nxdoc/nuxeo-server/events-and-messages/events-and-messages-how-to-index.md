@@ -1,5 +1,5 @@
 ---
-title: Event and Listener How To Index
+title: Events and Messages How To Index
 review:
     comment: ''
     date: '2018-01-02'

@@ -1,5 +1,5 @@
 ---
-title: Core Server
+title: Data Store
 review:
     comment: ''
     date: '2018-06-12'

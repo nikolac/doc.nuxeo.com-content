@@ -22,7 +22,7 @@ confluence:
     shortlink: BgKw
     shortlink_source: 'https://doc.nuxeo.com/x/BgKw'
     source_link: /display/NXDOC/Trust+Store+and+Key+Store+Configuration
-tree_item_index: 300
+tree_item_index: 1350
 history:
     -
         author: Manon Lumeau

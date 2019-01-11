@@ -1,5 +1,5 @@
 ---
-title: Deleting Documents
+title: Trash Service
 review:
     comment: ''
     date: '2018-04-24'
