@@ -1,5 +1,6 @@
 ---
 title: Installing a New Package on Your Instance
+description: Packages can be installed directly using the nuxeoctl script or from the Marketplace. Packages can be addons bringing new features or hotfixes providing corrections or small improvements.
 review:
     comment: ''
     date: '2017-12-14'
@@ -193,7 +194,7 @@ history:
         version: '1'
 
 ---
-Packages can be installed directly from the Admin tab, from the Marketplace or using the `nuxeoctl` script. Packages can be addons bringing new features or hotfixes providing corrections or small improvements. Some Nuxeo Packages are totally public, not requiring a Nuxeo Online Services account to install them. Others can only be installed on instances [registered on Nuxeo Online Services]({{page page='registering-your-nuxeo-instance'}}).
+Packages can be installed directly using the `nuxeoctl` script or from the Marketplace. Packages can be addons bringing new features or hotfixes providing corrections or small improvements. Some Nuxeo Packages are totally public, not requiring a Nuxeo Online Services account to install them. Others can only be installed on instances [registered on Nuxeo Online Services]({{page page='registering-your-nuxeo-instance'}}).
 
 ## Online Installation
 

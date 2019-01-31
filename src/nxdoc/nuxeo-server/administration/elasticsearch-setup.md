@@ -1,5 +1,6 @@
 ---
 title: Elasticsearch Setup
+description: This page provides several configuration use cases for Elasticsearch.
 review:
     comment: ''
     date: '2017-12-13'
@@ -465,9 +466,7 @@ history:
 
 ---
 {{! excerpt}}
-
 This page provides several configuration use cases for Elasticsearch.
-
 {{! /excerpt}}
 
 ## Setting up an Elasticsearch Cluster
@@ -859,13 +858,19 @@ curl localhost:9200/_cat/indices?v >> /tmp/es-info.txt
 To test the full-text analyzer:
 
 ```
-curl -XGET 'localhost:9200/nuxeo/_analyze?analyzer=fulltext&pretty' -d 'This is a text for testing, file_name/1-foos-BAR.jpg'
+curl -s -X GET "localhost:9200/nuxeo/_analyze" -H 'Content-Type: application/json' -d' {
+  "analyzer" : "fulltext",
+  "text" : "This is a text for testing, file_name/1-foos-BAR.jpg"
+}'
 ```
 
 To test an analyzer derived from the mapping:
 
 ```
-curl -XGET 'localhost:9200/nuxeo/_analyze?field=ecm:path.children&pretty' -d 'workspaces/main folder/folder'
+curl -s -X GET "localhost:9200/nuxeo/_analyze" -H 'Content-Type: application/json' -d' {
+  "field" : "ecm:path.children",
+  "text" : "workspaces/main folder/sub-folder"
+}'
 ```
 
 ### Viewing Indexed Terms for Document Field
@@ -875,7 +880,7 @@ It is also possible to use aggregate on fields that are not text or text with `f
 
 ```bash
 # view indexed tokens for dc:title.fulltext of document 3d50118c-7472-4e99-9cc9-321deb4fe053
-curl -XGET 'localhost:9200/nuxeo/doc/_search?pretty' -d'{
+curl -XGET 'localhost:9200/nuxeo/doc/_search?pretty' -H 'Content-Type: application/json' -d'{
  "query" : {"ids" : { "values" : ["3d50118c-7472-4e99-9cc9-321deb4fe053"] }},
  "aggs": {"my_aggs": {"terms": {"field": "dc:title", "order" : { "_count" : "desc" }, "size": 1000}}}}'
 ```
