@@ -81,13 +81,7 @@ Any Nuxeo public addon or [private addon you uploaded]({{page page='delivering-a
 --}}
 ![Addons List](nx_asset://0c684cef-bae9-4a60-8f5f-3752bfe3f079 ?w=350,border=true)
 
-Addons that display a `Studio` tag bring additional options into Studio like new screens or options, making their configuration easier.
-{{!--     ### nx_asset ###
-    path: /default-domain/workspaces/Product Management/Documentation/Documentation Screenshots/Studio/Application Definition/Studio Tag
-    name: studio-tag.png
-    studio_modeler#screenshot#up_to_date
---}}
-![Studio Tag](nx_asset://47a8bd1a-cea4-4d77-a0cf-45184e0c1b81 ?w=300,border=true)
+Some addons bring additional options into Studio such as new screens or options, making their configuration easier. Once you select an addon that has an impact on Studio, their specific features are instantly available.
 
 Addons that display a `Private` tag mean they have been uploaded on the marketplace through the [private channel]({{page page='delivering-a-customization-package-through-the-nuxeo-marketplace'}}). Note that it is not yet possible to choose which version of a private package you want to depend on. Application definition will always add a dependency to the latest available version on the marketplace every time you save your changes.
 
