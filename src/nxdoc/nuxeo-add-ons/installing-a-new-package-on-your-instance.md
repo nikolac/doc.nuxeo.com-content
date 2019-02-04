@@ -193,7 +193,13 @@ history:
         version: '1'
 
 ---
-Packages can be installed directly from the Admin tab, from the Marketplace or using the `nuxeoctl` script. Packages can be addons bringing new features or hotfixes providing corrections or small improvements. Some Nuxeo Packages are totally public, not requiring a Nuxeo Online Services account to install them. Others can only be installed on instances [registered on Nuxeo Online Services]({{page page='registering-your-nuxeo-instance'}}).
+{{! excerpt}}
+
+Packages can be installed directly from the Marketplace or using the `nuxeoctl` script. Packages can be addons bringing new features, or hotfixes providing corrections and small improvements. Some Nuxeo Packages are totally public, not requiring a Nuxeo Online Services account to install them. Others can only be installed on instances [registered on Nuxeo Online Services]({{page page='registering-your-nuxeo-instance'}}).
+
+{{! /excerpt}}
+
+In Nuxeo Studio, you can enter the packages required to install for your application in your [Application Definition ]({{page version='' space='studio' page='application-definition'}}).  
 
 ## Online Installation
 
@@ -296,67 +302,6 @@ If for some reason one of the packages requested can't be installed, nuxeoctl wi
 org.nuxeo.connect.update.PackageException: Package not found: unknown-package-name
 ```
 
-### Installing a Package from the Admin Tab
-
-{{{multiexcerpt 'JSF-UI-required' page='generic-multi-excerpts'}}}
-
-The Admin tab includes a section called **Update Center** from which you can easily install hotfixes, updates, addons and your customizations. The Update Center features a **Packages from Nuxeo Marketplace** tab that shows the list of packages available from the Marketplace and allowing you to install these packages directly from your Nuxeo application.
-
-**To install a package from the Admin tab:**
-
-1.  As an administrator (Administrator/Administrator by default), in the **Admin** tab, click on the **Update Center** left tab.
-2.  Click on the **Packages from Nuxeo Marketplace**.
-    The list of available packages, including hotfixes and addons, is displayed. By default, only packages compatible with your version of the Nuxeo Platform are listed.
-3.  Optionally, filter the list of packages:
-
-    *   Uncheck the **Show only packages compatible with my distribution** box if you want to see all available packages;
-    *   Check the **Hide local packages** box if you want to hide already downloaded packages from the list.
-        ![]({{file name='Admin-Center-updateCenter.png'}} ?w=650,h=287,border=true)
-4.  Click on the **Download** link of the package you want to install.
-    A download in progress page is displayed while the package is being downloaded.
-    ![]({{file name='package-downloading.png'}} ?w=350,border=true)
-    When the download is finished, the list of packages is displayed again and the downloaded package has an **Install** link.
-    ![]({{file name='package-downloaded.png'}} ?w=600,border=true)
-    The package is also available from the **Local packages** tab of the Update Center.
-5.  Click on the **Install** link to start the installation.
-    ![]({{file name='package-installation-start-page.png'}} ?w=450,border=true)
-6.  Start the installation by clicking on the **Start** button.
-
-{{#> callout type='info' heading='Packages with dependencies'}}
-If the package has some missing dependencies, the **Start** button is not displayed. You are displayed a series of steps to install the required dependencies.
-
-a.  If dependency packages are not already in the Local packages, you need to download them. Click on the **Download all packages** button.
-    ![]({{file name='package-dependencies-download.png'}} ?w=350,border=true)
-    Required packages are downloaded.
-
-b.  Click on the **Installation of package and dependencies** button.
-    ![]({{file name='package-dependencies-installation.png'}} ?w=350,border=true)
-    A page detailing the packages to be installed is displayed.
-
-c.  Click on the **Confirm install** button at the bottom of the page.
-    ![]({{file name='package-dependencies-installation-confirmation.png'}} ?w=400,border=true)
-{{/callout}}
-
-Once the installation is done, a confirmation screen is displayed.
-
-7.  Click on the **Finish** button.
-
-    ![]({{file name='package-installation-finish.png'}} ?w=600,border=true)
-
-    You need to restart the application for the installation to be completed.
-    ![]({{file name='package-restart-required.png'}} ?w=600,border=true)
-
-    {{#> callout type='tip' heading='Hot-reload'}}
-    Some packages don't require the server to be restarted to be fully installed. For instance your Nuxeo Studio configuration, when the [dev mode]({{page page='deploying-your-project-in-dev-mode' space='studio'}}) is activated.
-    {{/callout}}
-8.  Click on the **Restart required** button to restart the server.
-9.  On the pop-up displayed, click on the **OK** button to confirm restart.
-    ![]({{file name='restart-confirmation-popup.png'}} ?w=300,border=true,thumbnail=true)
-
-    You're displayed a Restarting page as the server is restarting.
-    ![]({{file name='restarting-page.png'}} ?w=550,border=true)
-    The server immediately restarts. The login page will automatically be displayed when the server is restarted.
-
 ## Offline Installation
 
 It is possible to install packages available on the Nuxeo Marketplace even if your server is not connected to the Internet. This takes two steps:
@@ -432,32 +377,6 @@ Depending on the package you want to install, you may need to be logged in to th
     ![]({{file name='marketplace-download.png'}} ?w=600,border=true)
 2.  Save the .zip file on a disk that is accessible by the Nuxeo server or directly on a storage device.
 
-### Installing a Package Offline from the Admin Tab
-
-{{{multiexcerpt 'JSF-UI-required' page='generic-multi-excerpts'}}}
-
-1.  As administrator (Administrator/Administrator by default), in the **Admin** tab, click on the **Update Center** left tab.
-2.  Click on the **Local packages** tab.
-3.  Click on the **Upload a package** button.
-    An upload form is displayed just below the tabs.
-    ![]({{file name='package-upload.png'}} ?w=600,border=true)
-4.  Click on the **Choose file** button to select the downloaded package .zip package file.
-5.  Click on the **Upload** button.
-    The package is uploaded to the server and ready to be installed.
-6.  Install the package by clicking on the **Install** link.
-    ![]({{file name='package-downloaded.png'}} ?w=600)
-    A confirmation page is displayed.
-7.  Click on **Start** to confirm installation.
-    ![]({{file name='package-installation-start-page.png'}} ?w=500,border=true)
-    Once the set up is achieved, a message from the server confirms that the installation was performed correctly.
-8.  If required, restart the server by clicking the **Restart required** button that replaces **Install** and **Remove** buttons. Otherwise, installation is completed and you're displayed an **Uninstall** button.
-
-9.  On the pop-up displayed, click on the **OK** button to confirm restart.
-    ![]({{file name='restart-confirmation-popup.png'}} ?w=300,border=true,thumbnail=true)
-
-    You're displayed a Restarting page as the server is restarting. The login page is displayed as soon as the server is available again.
-    ![]({{file name='restarting-page.png'}} ?w=500,border=true)
-
 ## Uninstalling a Package
 
 Uninstalling a package can be done from a terminal using the `nuxeoctl` script or from the Admin tab.
@@ -523,18 +442,103 @@ The instructions below provide the steps to follow to uninstall a package using 
     ./nuxeoctl start
     ```
 
-### Uninstalling a Package from the Admin Tab
+## Managing Packages with JSF UI (deprecated)
 
 {{{multiexcerpt 'JSF-UI-required' page='generic-multi-excerpts'}}}
+
+### Installing a Package from the Admin Tab
+
+The Admin tab includes a section called **Update Center** from which you can easily install hotfixes, updates, addons and your customizations. The Update Center features a **Packages from Nuxeo Marketplace** tab that shows the list of packages available from the Marketplace and allowing you to install these packages directly from your Nuxeo application.
+
+**To install a package from the Admin tab:**
+
+1.  As an administrator (Administrator/Administrator by default), in the **Admin** tab, click on the **Update Center** left tab.
+1.  Click on the **Packages from Nuxeo Marketplace**.
+    The list of available packages, including hotfixes and addons, is displayed. By default, only packages compatible with your version of the Nuxeo Platform are listed.
+1.  Optionally, filter the list of packages:
+
+    -   Uncheck the **Show only packages compatible with my distribution** box if you want to see all available packages;
+    -   Check the **Hide local packages** box if you want to hide already downloaded packages from the list.
+        ![]({{file name='Admin-Center-updateCenter.png'}} ?w=650,h=287,border=true)
+1.  Click on the **Download** link of the package you want to install.
+    A download in progress page is displayed while the package is being downloaded.
+    ![]({{file name='package-downloading.png'}} ?w=350,border=true)
+    When the download is finished, the list of packages is displayed again and the downloaded package has an **Install** link.
+    ![]({{file name='package-downloaded.png'}} ?w=600,border=true)
+    The package is also available from the **Local packages** tab of the Update Center.
+1.  Click on the **Install** link to start the installation.
+    ![]({{file name='package-installation-start-page.png'}} ?w=450,border=true)
+1.  Start the installation by clicking on the **Start** button.
+
+{{#> callout type='info' heading='Packages with dependencies'}}
+If the package has some missing dependencies, the **Start** button is not displayed. You are displayed a series of steps to install the required dependencies.
+
+  1.  If dependency packages are not already in the Local packages, you need to download them. Click on the **Download all packages** button.
+    ![]({{file name='package-dependencies-download.png'}} ?w=350,border=true)
+    Required packages are downloaded.
+
+  1.  Click on the **Installation of package and dependencies** button.
+    ![]({{file name='package-dependencies-installation.png'}} ?w=350,border=true)
+    A page detailing the packages to be installed is displayed.
+
+  1.  Click on the **Confirm install** button at the bottom of the page.
+    ![]({{file name='package-dependencies-installation-confirmation.png'}} ?w=400,border=true)
+{{/callout}}
+
+Once the installation is done, a confirmation screen is displayed.
+
+1.  Click on the **Finish** button.
+
+    ![]({{file name='package-installation-finish.png'}} ?w=600,border=true)
+
+    You need to restart the application for the installation to be completed.
+    ![]({{file name='package-restart-required.png'}} ?w=600,border=true)
+
+    {{#> callout type='tip' heading='Hot-reload'}}
+    Some packages don't require the server to be restarted to be fully installed. For instance your Nuxeo Studio configuration, when the [dev mode]({{page page='deploying-your-project-in-dev-mode' space='studio'}}) is activated.
+    {{/callout}}
+1.  Click on the **Restart required** button to restart the server.
+1.  On the pop-up displayed, click on the **OK** button to confirm restart.
+    ![]({{file name='restart-confirmation-popup.png'}} ?w=300,border=true,thumbnail=true)
+
+    You're displayed a Restarting page as the server is restarting.
+    ![]({{file name='restarting-page.png'}} ?w=550,border=true)
+    The server immediately restarts. The login page will automatically be displayed when the server is restarted.    
+
+### Installing a Package Offline from the Admin Tab
+
+{{{multiexcerpt 'JSF-UI-required' page='generic-multi-excerpts'}}}
+1.  As administrator (Administrator/Administrator by default), in the **Admin** tab, click on the **Update Center** left tab.
+1.  Click on the **Local packages** tab.
+1.  Click on the **Upload a package** button.
+    An upload form is displayed just below the tabs.
+    ![]({{file name='package-upload.png'}} ?w=600,border=true)
+1.  Click on the **Choose file** button to select the downloaded package .zip package file.
+1.  Click on the **Upload** button.
+    The package is uploaded to the server and ready to be installed.
+1.  Install the package by clicking on the **Install** link.
+    ![]({{file name='package-downloaded.png'}} ?w=600)
+    A confirmation page is displayed.
+1.  Click on **Start** to confirm installation.
+    ![]({{file name='package-installation-start-page.png'}} ?w=500,border=true)
+    Once the set up is achieved, a message from the server confirms that the installation was performed correctly.
+1.  If required, restart the server by clicking the **Restart required** button that replaces **Install** and **Remove** buttons. Otherwise, installation is completed and you're displayed an **Uninstall** button.
+1.  On the pop-up displayed, click on the **OK** button to confirm restart.
+    ![]({{file name='restart-confirmation-popup.png'}} ?w=300,border=true,thumbnail=true)
+
+    You're displayed a Restarting page as the server is restarting. The login page is displayed as soon as the server is available again.
+    ![]({{file name='restarting-page.png'}} ?w=500,border=true)
+
+### Uninstalling a Package from the Admin Tab
 
 1.  In the **Admin** tab, go on the **Local packages** tab of the **Update Center**.
     The list of packages that you have downloaded and possibly installed is displayed.
 
-2.  Click on the **Uninstall** link of the package you want to uninstall from your application.
+1.  Click on the **Uninstall** link of the package you want to uninstall from your application.
     A confirmation message is displayed.
-3.  Click on the **Start** button to confirm you want to uninstall the package.
+1.  Click on the **Start** button to confirm you want to uninstall the package.
     ![]({{file name='AdminCenter-uninstall2.png'}} ?w=450,border=true)
-4.  When uninstallation is done, click on the **Finish** button.
+1.  When uninstallation is done, click on the **Finish** button.
     ![]({{file name='AdminCenter-uninstall3.png'}} ?w=600,border=true)
     The list of packages is displayed. You need to restart the application for the uninstallation to be completed.
 
@@ -546,8 +550,8 @@ The instructions below provide the steps to follow to uninstall a package using 
 
     ![]({{file name='AdminCenter-uninstall4.png'}} ?w=600,h=186,border=true)
 
-5.  Click on the **Restart server** button and confirm server restart.
-6.  When the server is restarted, log back in and go the **Local Packages** tab. The uninstalled package now has an **Install** link displayed.
+1.  Click on the **Restart server** button and confirm server restart.
+1.  When the server is restarted, log back in and go the **Local Packages** tab. The uninstalled package now has an **Install** link displayed.
     ![]({{file name='AdminCenter-uninstall5.png'}} ?w=600)
 
 * * *
@@ -555,6 +559,7 @@ The instructions below provide the steps to follow to uninstall a package using 
 <div class="row" data-equalizer data-equalize-on="medium"><div class="column medium-6">{{#> panel heading='Related Documentation'}}
 
 - [nuxeoctl and Control Panel Usage]({{page page='nuxeoctl-and-control-panel-usage'}})
+- [Studio Application Definition ]({{page version='' space='studio' page='application-definition'}})
 - [Admin Tab Overview]({{page page='admin-tab-overview'}})
 
 {{/panel}}</div><div class="column medium-6">
