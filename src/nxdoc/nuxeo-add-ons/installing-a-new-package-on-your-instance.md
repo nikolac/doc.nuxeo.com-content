@@ -194,12 +194,8 @@ history:
 
 ---
 {{! excerpt}}
-
-Packages can be installed directly from the Marketplace or using the `nuxeoctl` script. Packages can be addons bringing new features, or hotfixes providing corrections and small improvements. Some Nuxeo Packages are totally public, not requiring a Nuxeo Online Services account to install them. Others can only be installed on instances [registered on Nuxeo Online Services]({{page page='registering-your-nuxeo-instance'}}).
-
+Packages can be installed directly from the Marketplace or using the `nuxeoctl` script. Packages can be addons bringing new features, or hotfixes providing corrections and small improvements. Some Nuxeo Packages are totally public, they don't require a Nuxeo Online Services account to be installed. Others can only be installed on instances [registered on Nuxeo Online Services]({{page page='registering-your-nuxeo-instance'}}).
 {{! /excerpt}}
-
-In Nuxeo Studio, you can enter the packages required to install for your application in your [Application Definition ]({{page version='' space='studio' page='application-definition'}}).  
 
 ## Online Installation
 
@@ -207,7 +203,7 @@ In Nuxeo Studio, you can enter the packages required to install for your applica
 
 {{! multiexcerpt name='nuxeoctl-note'}}
 
-The instructions below provide the steps to follow to install a package using the `nuxeoctl` script, without detailed explanation about `nuxeoctl`. For an overview of this script, please read the page [nuxeoctl and Control Panel Usage]({{page space='NXDOC' page='nuxeoctl and+Control+Panel+Usage'}}).
+The instructions below provide the steps to follow to install a package using the `nuxeoctl` script. For an overview of this script, please read the page [nuxeoctl and Control Panel Usage]({{page space='NXDOC' page='nuxeoctl and+Control+Panel+Usage'}}).
 
 For Windows users, use `nuxeoctl.bat` instead of `./nuxeoctl` commands below.
 
@@ -219,9 +215,10 @@ For Windows users, use `nuxeoctl.bat` instead of `./nuxeoctl` commands below.
     ./nuxeoctl stop
     ```
 
-2.  Get the name or ID of the package you want to download. You can get it from the package Marketplace URL: For instance, the ID of the Nuxeo Drive package ([https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-drive?version=1.6.6](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-drive?version=1.6.6)) is `nuxeo-drive-1.6.6`.
+1.  Get the name or ID of the package you want to download. You can get it from the package Marketplace URL.
+For instance, the ID of the [Nuxeo Drive package](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-drive?version=1.6.6) is `nuxeo-drive-1.6.6`.
 
-3.  Install the package.
+1.  Install the package.
 
     ```
     ./nuxeoctl mp-install nuxeo-drive-1.6.6
@@ -245,7 +242,7 @@ For Windows users, use `nuxeoctl.bat` instead of `./nuxeoctl` commands below.
     Packages to download (1):      nuxeo-drive:1.6.6
     ```
 
-4.  Confirm installation.
+1.  Confirm installation.
 
     ```
     Do you want to continue (yes/no)? [yes] yes
@@ -260,14 +257,15 @@ For Windows users, use `nuxeoctl.bat` instead of `./nuxeoctl` commands below.
     Installing nuxeo-drive-1.6.6
     ```
 
-5.  Start your server.
+1.  Start your server.
 
     ```
     ./nuxeoctl start
     ```
 
 #### Alternative Syntax Options
-It is possible to ask for installation without specifying a version number. In this case, `nuxeoctl` will retrieve the latest version available compatible with your current Nuxeo Server version.
+
+It is possible to ask for installation without specifying a version number. In this case, `nuxeoctl` will retrieve the latest available version compatible with your current Nuxeo Server version.
 
 ```
   ./nuxeoctl mp-install nuxeo-drive
@@ -307,7 +305,7 @@ org.nuxeo.connect.update.PackageException: Package not found: unknown-package-na
 It is possible to install packages available on the Nuxeo Marketplace even if your server is not connected to the Internet. This takes two steps:
 
 1.  Download the package from the Marketplace.
-2.  Install the package using the `nuxeoctl` script or upload it from the Update Center.
+1.  Install the package using the `nuxeoctl` script.
 
 ### Installing a Package Offline Using the nuxeoctl Script
 
@@ -319,7 +317,7 @@ It is possible to install packages available on the Nuxeo Marketplace even if yo
     ./nuxeoctl stop
     ```
 
-2.  Install the package by providing the path to the downloaded .zip file.
+1.  Install the package by providing the path to the downloaded .zip file.
 
     ```
     ./nuxeoctl mp-install /Users/NUXEO/Downloads/nuxeo-drive-1.6.6.zip
@@ -347,7 +345,7 @@ It is possible to install packages available on the Nuxeo Marketplace even if yo
 
     If some dependencies are not already locally available, repeat this step for each required package.
 
-3.  Confirm installation.
+1.  Confirm installation.
 
     ```
     Do you want to continue (yes/no)? [yes] yes
@@ -359,7 +357,7 @@ It is possible to install packages available on the Nuxeo Marketplace even if yo
     Installing nuxeo-drive-1.6.6
     ```
 
-4.  Start the server.
+1.  Start the server.
 
     ```
     ./nuxeoctl start
@@ -368,18 +366,16 @@ It is possible to install packages available on the Nuxeo Marketplace even if yo
 ### Downloading a Package from the Marketplace
 
 {{#> callout type='tip' }}
-
 Depending on the package you want to install, you may need to be logged in to the Marketplace to download the package.
-
 {{/callout}}
 
 1.  On the Nuxeo Marketplace, click on the **Install** button of the package you want to install, then on the download link.
     ![]({{file name='marketplace-download.png'}} ?w=600,border=true)
-2.  Save the .zip file on a disk that is accessible by the Nuxeo server or directly on a storage device.
+1.  Save the .zip file on a disk that is accessible by the Nuxeo server or directly on a storage device.
 
 ## Uninstalling a Package
 
-Uninstalling a package can be done from a terminal using the `nuxeoctl` script or from the Admin tab.
+Uninstalling a package can be done from a terminal using the `nuxeoctl` script.
 
 ### Uninstalling a Package Using the nuxeoctl Script
 
@@ -391,15 +387,15 @@ The instructions below provide the steps to follow to uninstall a package using 
     ./nuxeoctl stop
     ```
 
-2.  In a terminal, get the list of packages available on your Nuxeo server.
+1.  In a terminal, get the list of packages available on your Nuxeo server.
 
     ```
     ./nuxeoctl mp-list
     ```
 
-3.  Copy the name of the id of the package you want to uninstall.
+1.  Copy the name of the id of the package you want to uninstall.
 
-4.  Run the uninstallation:
+1.  Run the uninstallation:
 
     ```
     ./nuxeoctl mp-uninstall nuxeo-dam-6.0.0
@@ -424,7 +420,7 @@ The instructions below provide the steps to follow to uninstall a package using 
     Do you want to continue (yes/no)? [yes]
     ```
 
-5.  Confirm uninstallation.
+1.  Confirm uninstallation.
 
     ```
     Do you want to continue (yes/no)? [yes] yes
@@ -436,7 +432,7 @@ The instructions below provide the steps to follow to uninstall a package using 
     Uninstalling nuxeo-dam-6.0.0
     ```
 
-6.  Start the server.
+1.  Start the server.
 
     ```
     ./nuxeoctl start
@@ -543,9 +539,7 @@ Once the installation is done, a confirmation screen is displayed.
     The list of packages is displayed. You need to restart the application for the uninstallation to be completed.
 
     {{#> callout type='tip' heading='Hot-reload'}}
-
     Some packages don't require the server to be restarted to be fully uninstalled.
-
     {{/callout}}
 
     ![]({{file name='AdminCenter-uninstall4.png'}} ?w=600,h=186,border=true)
