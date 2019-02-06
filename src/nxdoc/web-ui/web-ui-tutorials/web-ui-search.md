@@ -1,5 +1,6 @@
 ---
 title: 'HOWTO: Configure Searches'
+description: Learn how to create a new search screen with Studio Designer.
 review:
     comment: ''
     date: '2018-02-21'

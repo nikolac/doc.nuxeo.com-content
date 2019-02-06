@@ -1,5 +1,6 @@
 ---
 title: Web UI Customization Tutorial
+description: Learn how to customize Web UI and deploy your customization.
 review:
     comment: 'The example contribution needs to be reviewed since the Picture layouts were moved to Nuxeo DAM.'
     date: '2017-12-15'

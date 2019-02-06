@@ -1,5 +1,6 @@
 ---
 title: Repository Configuration
+description: This page lists the options available to configure VCS repository in Nuxeo Platform. They usually go in a file named default-repository-config.xml.
 review:
     comment: 'This page needs to be updated to document DBS configuration and separate SQL-specific options'
     date: '2017-12-14'
