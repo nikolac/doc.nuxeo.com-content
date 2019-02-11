@@ -194,7 +194,7 @@ history:
 
 ---
 {{! excerpt}}
-Packages can be installed directly from the Marketplace or using the `nuxeoctl` script. Packages can be addons bringing new features, or hotfixes providing corrections and small improvements. Some Nuxeo Packages are totally public, they don't require a Nuxeo Online Services account to be installed. Others can only be installed on instances [registered on Nuxeo Online Services]({{page page='registering-your-nuxeo-instance'}}).
+Packages can be installed directly from the Marketplace or using the `nuxeoctl` script. Packages can be addons bringing new features or hotfixes providing corrections and small improvements. Some Nuxeo Packages are totally public, they don't require a Nuxeo Online Services account to be installed. Others can only be installed on instances [registered on Nuxeo Online Services]({{page page='registering-your-nuxeo-instance'}}).
 {{! /excerpt}}
 
 ## Online Installation
