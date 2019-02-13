@@ -2,7 +2,7 @@
 title: How to Customize the HTML5 Drag and Drop Import with Metadata Form
 review:
     comment: ''
-    date: '2016-12-19'
+    date: '2019-02-13'
     status: ok
 details:
     howto:
@@ -74,6 +74,8 @@ history:
         version: '1'
 
 ---
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
 {{#> callout type='info' }}
 {{{multiexcerpt 'check-jsf-ui-dependency' page='how-to-define-a-new-content-view'}}}
 {{/callout}}
@@ -83,6 +85,10 @@ HTML5 Drag and Drop enables users to [import documents in a folder]({{page space
 ![]({{file name='smartDnD_metadata.png' space='userdoc' page='creating-content'}} ?w=650,h=289,border=true)
 
 Follow the steps to below to customize the import form.
+
+{{#> callout type='info' }}
+{{{multiexcerpt 'check-jsf-ui-dependency' page='how-to-define-a-new-content-view'}}}
+{{/callout}}
 
 1.  In Nuxeo Studio, [create a new XML Extension]({{page page='how-to-contribute-to-an-extension'}}) with the following content:
 
