@@ -100,8 +100,8 @@ This addon is deprecated since Nuxeo Platform LTS 2019.
 {{! /multiexcerpt}}
 
 {{! multiexcerpt name='DeprecatedJSF'}}
-{{#> callout type='note' }}
-The JSF UI addon is deprecated since Nuxeo Platform LTS 2019. Please refer to the [Web UI documentation]({{page version='' space='nxdoc' page='web-ui'}}).
+{{#> callout type='warning' }}
+The JSF UI addon is deprecated since Nuxeo Platform LTS 2019.</br>Please refer to the [Web UI documentation]({{page version='' space='nxdoc' page='web-ui'}}).
 {{/callout}}
 {{! /multiexcerpt}}
 
