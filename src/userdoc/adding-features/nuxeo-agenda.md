@@ -77,6 +77,8 @@ history:
 ---
 {{{multiexcerpt 'JSF-UI-required' page='/nxdoc/generic-multi-excerpts'}}}
 
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
 {{! multiexcerpt name='nuxeo-agenda-functional-overview'}}{{! excerpt}}
 
 The [Nuxeo Agenda package](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-agenda) provides users with a new documents type "Event" that enables them to manage their list of meetings and other events using an Agenda gadget on their dashboard.

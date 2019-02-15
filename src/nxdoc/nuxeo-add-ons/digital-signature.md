@@ -86,13 +86,17 @@ history:
         version: '1'
 
 ---
-{{! excerpt}}
-
 {{{multiexcerpt 'JSF-UI-required' page='generic-multi-excerpts'}}}
+
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
+{{! excerpt}}
 
 The [Digital Signature add-on](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-signature) introduces PDF signing capabilities to the Nuxeo Platform. This add-on also provides generation of user certificates, which are required for document signing.
 
 {{! /excerpt}}
+
+
 
 The Nuxeo Platform Digital Signature add-on allows users to:
 

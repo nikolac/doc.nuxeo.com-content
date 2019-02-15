@@ -160,6 +160,8 @@ You can view the list of the Page Providers in the Admin Center/Elasticsearch/Pa
 
 {{{multiexcerpt 'JSF-UI-required' page='generic-multi-excerpts'}}}
 
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
 ## Configuring a New Content View (and underlying Page Provider) With Nuxeo Studio
 
 1.  In Studio, on the content view, on the query & form tab, check "Use Elasticsearch index" and Save.

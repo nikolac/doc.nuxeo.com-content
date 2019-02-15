@@ -180,6 +180,8 @@ The automation chain should be:
 
 {{{multiexcerpt 'JSF-UI-required' page='generic-multi-excerpts'}}}
 
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
 Now, plug the automation chain to a button called `safeDownloadButton` available:
 * in the contextual tools
 * only for File document type

@@ -82,6 +82,8 @@ next_link: /nxdoc/implement-the-news-publishing-process
 ---
 {{{multiexcerpt 'JSF-UI-required' page='generic-multi-excerpts'}}}
 
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
 In the section, we will:
 
 - prepare a new tab for workspaces,

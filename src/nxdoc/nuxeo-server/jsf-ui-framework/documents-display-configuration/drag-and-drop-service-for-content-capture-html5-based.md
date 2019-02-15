@@ -181,6 +181,8 @@ history:
 ---
 {{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
 
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
 Drag and Drop from the Desktop to Nuxeo HTML UI has been available for a long time using a browser plugin.
 
 {{! excerpt}}

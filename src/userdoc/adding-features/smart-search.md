@@ -125,6 +125,8 @@ history:
 
 {{{multiexcerpt 'JSF-UI-required' page='/nxdoc/generic-multi-excerpts'}}}
 
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
 {{! excerpt}}
 
 The [Smart Search package](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-platform-smart-search) is a query engine that adds a new search form in the application from which you can build your queries and save them in smart folders. It offers search criteria on content, dates, and metadata.

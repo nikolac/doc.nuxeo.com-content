@@ -1094,6 +1094,8 @@ Existing configuration parameters are listed in the index section below.
 
 {{{multiexcerpt 'JSF-UI-required' page='generic-multi-excerpts'}}}
 
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
 Administrators can also change the `nuxeo.conf` configuration parameters from the Admin center.
 
 **To edit the configuration of the application using the Admin Center:**

@@ -66,6 +66,8 @@ history:
 ---
 {{{multiexcerpt 'JSF-UI-required' page='/nxdoc/generic-multi-excerpts'}}}
 
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
 {{! excerpt}}
 
 The [Nuxeo Jenkins Report addon](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-jenkins-report-mp) enables users of the Nuxeo Platform to generate and send reports on the status of the Continuous Integration on Jenkins, directly from the Nuxeo Platform. This addon is for development teams, to help them follow and share the status of their continuous integration, while leveraging the content management features of the Nuxeo Platform.

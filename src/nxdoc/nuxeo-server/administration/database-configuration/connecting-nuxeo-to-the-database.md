@@ -377,6 +377,8 @@ We recommend using a near-infinite [wait_timeout](http://dev.mysql.com/doc/refma
 
 {{{multiexcerpt 'JSF-UI-required' page='generic-multi-excerpts'}}}
 
+{{{multiexcerpt 'DeprecatedJSF' page='generic-multi-excerpts'}}}
+
 1.  In the Admin Center, click on the **Setup** tab of system information section.
 2.  In the **Main information** section, select the target database in the drop down menu.
     A new **Database Information** section is displayed on the page.
