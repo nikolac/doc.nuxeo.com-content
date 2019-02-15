@@ -250,7 +250,9 @@ Select the Nuxeo JSF UI target package in your [Application Definition]({{page p
 {{! /multiexcerpt}}
 {{/callout}}
 
-{{{multiexcerpt 'DeprecatedJSF' page='nxdoc/generic-multi-excerpts'}}}
+{{#> callout type='warning' }}
+The JSF UI addon is deprecated since Nuxeo Platform LTS 2019. You can define Layouts with Studio Designer. For more information, please refer to the [UI documentation]({{page version='' space='studio' page='ui-designer'}}#layouts).
+{{/callout}}
 
 On those tabs, you can respectively configure the creation, edition, view and header layouts of the document type you are designing. They work like the [form layouts]({{page page='form-layouts'}}) feature, thus you can follow the same instructions.
 

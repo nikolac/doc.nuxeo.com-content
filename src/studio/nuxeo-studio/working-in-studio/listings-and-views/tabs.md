@@ -211,7 +211,7 @@ The **Tabs** feature is available from Nuxeo Platform 5.6.
 {{{multiexcerpt 'jsf-ui-target-package-requirement' page='listings-and-views'}}}
 
 {{#> callout type='warning' }}
-The JSF UI addon is deprecated since Nuxeo Platform LTS 2019. Please refer to the [UI documentation]({{page version='' space='studio' page='ui-designer'}}#tabs).
+The JSF UI addon is deprecated since Nuxeo Platform LTS 2019. You can define Tabs with Studio Designer. For more information, please refer to the [UI documentation]({{page version='' space='studio' page='ui-designer'}}#tabs).
 {{/callout}}
 
 ## Creating a New Tab
