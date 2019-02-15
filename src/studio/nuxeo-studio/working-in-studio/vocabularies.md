@@ -198,6 +198,7 @@ To manage a vocabulary or its entries, go to **Administration > Vocabularies** a
 | Topic  | Lists topic. |
 | WorkflowType | Lists types of workflow tasks. |
 
+{{{multiexcerpt 'DeprecatedJSF' page='nxdoc/generic-multi-excerpts'}}}
 
 <div class="row" data-equalizer data-equalize-on="medium"><div class="column medium-6">{{#> panel heading='Related pages in current documentation'}}
 - [Managing Vocabularies]({{page space='userdoc' page='managing-vocabularies'}})

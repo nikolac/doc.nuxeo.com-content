@@ -19,37 +19,37 @@ confluence:
     shortlink_source: 'https://doc.nuxeo.com/x/hIQZAQ'
     source_link: /display/CORG/Cross+Site+Scripting
 history:
-    - 
+    -
         author: Florent Guillaume
         date: '2014-01-30 15:52'
         message: SRF -> CSR
         version: '7'
-    - 
+    -
         author: Florent Guillaume
         date: '2014-01-30 15:50'
         message: explorer current -> latest
         version: '6'
-    - 
+    -
         author: Thierry Delprat
         date: '2014-01-28 19:20'
         message: ''
         version: '5'
-    - 
+    -
         author: Thierry Delprat
         date: '2014-01-28 19:04'
         message: ''
         version: '4'
-    - 
+    -
         author: Solen Guitter
         date: '2014-01-22 11:39'
         message: ''
         version: '3'
-    - 
+    -
         author: Solen Guitter
         date: '2014-01-22 11:38'
         message: Typos and formatting
         version: '2'
-    - 
+    -
         author: Thierry Delprat
         date: '2014-01-22 11:01'
         message: ''
@@ -105,6 +105,8 @@ In FreeMarker you can use the two built-in escapes:
 ## Cross-Site Request Forgery (<span style="line-height: 1.5;">CSRF)</span>
 
 ### JSF UI&nbsp;
+
+{{{multiexcerpt 'DeprecatedJSF' page='nxdoc/generic-multi-excerpts'}}}
 
 Thanks to the JSF ViewState management, all active (POST) requests have to be associated with a correct (non guessable) ViewState id : this makes a built-in CSRF protection.
 

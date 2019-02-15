@@ -824,6 +824,8 @@ The icon becomes ![]({{file name='drive_synced_under_root-webui.png' page='nuxeo
 
 #### JSF UI
 
+{{{multiexcerpt 'DeprecatedJSF' page='nxdoc/generic-multi-excerpts'}}}
+
 To synchronize a space, in the Nuxeo Platform, click on the icon ![]({{file name='drive_unsynced.png' page='nuxeo-drive'}}).
 The icon becomes green. Documents inside the synchronized space have an icon ![]({{file name='drive_synced_under_root.png' page='nuxeo-drive'}}) and a Drive local edit icon ![]({{file name='drive_edit.png' page='nuxeo-drive'}}).
 
@@ -884,6 +886,8 @@ To unsynchronize a space, in the Nuxeo Platform interface, click on the icon ![]
 The icon becomes gray, indicating that the space is no longer synchronized. The folder and its content is no longer available from your Nuxeo Drive folder and from the Home **Nuxeo Drive** tab.
 
 #### JSF UI
+
+{{{multiexcerpt 'DeprecatedJSF' page='nxdoc/generic-multi-excerpts'}}}
 
 Unsynchronizing a folder is only possible from the Nuxeo Platform web interface. You can only unsynchronize the whole synchronized space, i.e. from the synchronization root ![]({{file name='drive_synced.png' page='nuxeo-drive'}}): it is not possible to unsynchronize a child ![]({{file name='drive_synced_under_root.png' page='nuxeo-drive'}}). Clicking on the icon ![]({{file name='drive_synced_under_root.png' page='nuxeo-drive'}}) brings you back on the space from which the synchronization is done.
 

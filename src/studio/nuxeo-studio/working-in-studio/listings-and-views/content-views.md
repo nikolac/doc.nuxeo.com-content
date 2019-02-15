@@ -207,6 +207,8 @@ history:
   Select the Nuxeo JSF UI target package in your [Application Definition]({{page page='application-definition'}}) for the Content View feature to be available.
 {{/callout}}
 
+{{{multiexcerpt 'DeprecatedJSF' page='nxdoc/generic-multi-excerpts'}}}
+
 Content view is the Nuxeo technology used to define a list of documents to display. The Nuxeo Platform uses this technology in these following cases:
 
 <div class="table-scroll">

@@ -64,6 +64,7 @@ Search results, and so content listings, are presented in a table. You can confi
 ## Pre-Requisites
 
 {{{multiexcerpt 'jsf-ui-target-package-requirement-in-content-view' page='content-view-query-and-form-tab'}}}
+{{{multiexcerpt 'DeprecatedJSF' page='nxdoc/generic-multi-excerpts'}}}
 
 ## General Configuration
 
