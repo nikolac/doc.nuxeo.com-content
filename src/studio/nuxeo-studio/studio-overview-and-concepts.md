@@ -1,5 +1,5 @@
 ---
-title: Studio Overview and Concepts
+title: Studio Overview
 review:
     comment: ''
     date: ''
@@ -98,25 +98,57 @@ history:
 Nuxeo Studio is a SaaS (Software as a Service) application to configure the Nuxeo Platform easily which enables to develop new applications without writing code.
 {{! /excerpt}}
 
-**Nuxeo Studio consists in:**
-- Studio Modeler, to configure your content models and business workflows
-- Studio Designer, to configure your forms and layouts designs for Web UI
-
 {{#> callout type='info' heading='Nuxeo University'}}
 Watch the related courses on Nuxeo University:<br>
 [Video on Nuxeo Studio Concepts](https://university.nuxeo.com/learn/public/course/view/elearning/142/nuxeo-platform-quickstart-nuxeo-studio-concepts)
 ![]({{file name='university-nuxeo-studio-concepts.png' page='nxdoc/university'}} ?w=450,border=true)
 {{/callout}}
 
-**Nuxeo Studio is a graphical configuration tool**. You can configure and design everything that builds your business logic (document types, views, forms and workflows) without writing code or XML configuration, thus preventing time-consuming development issues.<br>
+Studio is divided in:
 
-**Nuxeo Studio makes the deployment of your applications easier**. Configurations can be deployed in a click, without even restarting your server. Studio generates a single JAR file that holds all your configurations.
+<div class="row" data-equalizer data-equalize-on="medium">
+<div class="column medium-6">
+{{#> panel type='secondary' match_height='true'}}
+### [Studio Modeler]({{page version='' space='studio' page='working-in-studio'}})
 
-**Nuxeo Studio enables you to upgrade your Nuxeo-based applications easily**. Your configurations are guaranteed compatible with the future versions of Nuxeo Platform. Our auto-migration tools ensure a safe and transparent path to new technologies. Nuxeo Studio also runs consistency checks to handle errors before deployment.
+Configure your content models and business workflows
+
+{{/panel}}
+</div>
+
+<div class="column medium-6">
+{{#> panel type='secondary' match_height='true'}}
+### [Studio Designer]({{page version='' space='nxdoc' page='studio-Modeler'}})
+
+Configure your forms and layouts designs for Web UI
+
+{{/panel}}
+</div>
+</div>
+
+![](https://www.lucidchart.com/publicSegments/view/54c64fa0-9150-4b14-b7e0-572f0a009cea/image.png ?w=600,border=true)
 
 Since you can quickly configure the platform and safely make it evolve, Nuxeo Studio lowers the maintenance cost of your business applications and makes them easy to scale.
 
-![](https://www.lucidchart.com/publicSegments/view/54c64fa0-9150-4b14-b7e0-572f0a009cea/image.png ?w=600,border=true)
+<div class="row"><div class="column medium-4">{{#> panel type='primary'}}
+
+**Nuxeo Studio is a graphical configuration tool.**<br>
+
+Configure and design everything that builds your business logic without code or XML configuration, preventing time-consuming development issues.<br>
+
+{{/panel}}</div><div class="column medium-4">{{#> panel type='primary'}}
+
+**Nuxeo Studio makes the deployment of your applications easier.**<br>
+
+ Deploy your configurations in a click. You don't even need to restart your server. Studio generates a single JAR file that holds all your configurations.
+
+{{/panel}}</div><div class="column medium-4">{{#> panel type='primary'}}
+
+**Nuxeo Studio enables you to upgrade your Nuxeo-based applications easily.**<br>
+
+Evolve safely. Configurations compatibility with future versions is guaranteed. Auto-migration process and consistency checks ensure a safe path to new technologies.
+
+{{/panel}}</div></div>
 
 ## Making Nuxeo Platform Your Own
 
@@ -160,7 +192,9 @@ Firefox is not fully supported on Nuxeo Studio Designer. Currently, view editors
 
 ## Exporting a Studio Project in Eclipse
 
-From your instructions, Nuxeo Studio generates XML configurations. The plugin you can download from Nuxeo Studio is a strict set of XML files and pictures. To have a closer look: rename the downloaded JAR and unzip it. You can find the sources of your project. Technically, nothing prevents you from importing these files in Eclipse, modify them and commit changes in your own source repository.
+From your instructions, Nuxeo Studio generates XML configurations. The plugin you can download from Nuxeo Studio is a strict set of XML files and pictures. To have a closer look: rename the downloaded JAR and unzip it. You can find the sources of your project.
+
+Technically, nothing prevents you from importing these files in Eclipse, modify them and commit changes in your own source repository.
 
 **Yet, we do not recommend it because there is no reverse path:**
 - You will **definitively** lose the ability to maintain your project in Studio. For example, you will no longer be able to configure any feature in a more recent version, or use drag and drop to modify an automation chain.
