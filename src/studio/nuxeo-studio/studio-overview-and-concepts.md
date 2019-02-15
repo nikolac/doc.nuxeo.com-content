@@ -95,7 +95,7 @@ history:
         version: '1'
 ---
 {{! excerpt}}
-Nuxeo Studio is a SaaS (Software as a Service) application for every step to configuring Nuxeo products. It enables to develop new applications from the Nuxeo Platform without writing code.
+Nuxeo Studio is a SaaS (Software as a Service) application to configure the Nuxeo Platform easily which enables to develop new applications without writing code.
 {{! /excerpt}}
 
 **Nuxeo Studio consists in:**
@@ -108,30 +108,30 @@ Watch the related courses on Nuxeo University:<br>
 ![]({{file name='university-nuxeo-studio-concepts.png' page='nxdoc/university'}} ?w=450,border=true)
 {{/callout}}
 
-**Nuxeo Studio is a graphical configuration tool**. It enables you to configure and design everything that builds your business logic (document types, views, forms and workflows) without writing code or XML configuration. Thus, you can focus on your business logic and users needs, instead of time-consuming development issues.<br>
+**Nuxeo Studio is a graphical configuration tool**. You can configure and design everything that builds your business logic (document types, views, forms and workflows) without writing code or XML configuration, thus preventing time-consuming development issues.<br>
 
-**Nuxeo Studio makes the deployment of your applications easier**. Configurations can be deployed in a click, without even restarting your server. Technically, Studio generates a single JAR file that holds all your configurations.
+**Nuxeo Studio makes the deployment of your applications easier**. Configurations can be deployed in a click, without even restarting your server. Studio generates a single JAR file that holds all your configurations.
+
+**Nuxeo Studio enables you to upgrade your Nuxeo-based applications easily**. Your configurations are guaranteed compatible with the future versions of Nuxeo Platform. Our auto-migration tools ensure a safe and transparent path to new technologies. Nuxeo Studio also runs consistency checks to handle errors before deployment.
+
+Since you can quickly configure the platform and safely make it evolve, Nuxeo Studio lowers the maintenance cost of your business applications and makes them easy to scale.
 
 ![](https://www.lucidchart.com/publicSegments/view/54c64fa0-9150-4b14-b7e0-572f0a009cea/image.png ?w=600,border=true)
 
-**Nuxeo Studio enables you to upgrade your Nuxeo-based applications easily** as we guarantee forward compatibility of your configurations with the future versions of Nuxeo Platform. Thanks to auto-migration tools, the step to new technologies is safe and transparent. Nuxeo Studio also runs consistency checks to handle errors before deployment, making your configurations safer.
-
-Since you can quickly configure the platform and safely make it evolve, Nuxeo Studio lowers the maintenance cost of your business applications and makes your applications easy to scale.
-
-## Making Nuxeo Platform your own
+## Making Nuxeo Platform Your Own
 
 Nuxeo Studio enables you to adapt the Nuxeo Platform to your business application, from graphical configurations to the creation of new business workflows.
 
 Using Nuxeo Studio you can:
 
-- Brand your application
-- Add new document types, with new metadata and lifecycle
-- Create forms adapted to your specific document types
-- Customize the screen listing documents (content views) to display relevant business information
-- Define your own search forms
-- Add new buttons, tabs, icons in the UI
-- Create Automation chains to automatically apply simple to complex actions on documents
-- Define business workflows with manual and automated transitions, a dedicated dashboard, specific forms
+- [Brand your application]({{page version='' space='studio' page='branding'}})
+- [Add new document types, with new metadata and lifecycle]({{page version='' space='studio' page='content-model'}})
+- [Create forms tailored to your document types]({{page version='' space='studio' page='form-layouts'}})
+- [Display business content you need on customized views]({{page version='' space='studio' page='content-views'}})
+- [Define your own search forms]({{page version='' space='studio' page='search-advanced-search'}})
+- [Add new buttons, tabs, icons in the UI]({{page version='' space='studio' page='user-actions'}})
+- [Automatize simple to complex actions on documents]({{page version='' space='studio' page='automation'}})
+- [Define business workflows with manual and automated transitions, a dedicated dashboard, specific forms]({{page version='' space='studio' page='workflows'}})
 
 ## Getting Started
 
