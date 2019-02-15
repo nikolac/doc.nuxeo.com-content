@@ -271,7 +271,7 @@ The right part of the screen is called the "widgets palette". The middle is the 
 
 **Grid actions**
 
-*   **Add Row**: The action to add a new row on the listing. The data and form components will be displayed following the grid. You can also add a row in a specific place by right-clicking
+*   **Add Row**: The action to add a new row on the listing. The data and form components will be displayed following the grid. You can also add a row in a specific place by right-clicking.
 *   **Add Column**: The action to add a column. You can also add a column in a specific place with the right-click.
 *   **Set Table Size**: Specify rows and columns number.
     {{#> callout type='info' }}

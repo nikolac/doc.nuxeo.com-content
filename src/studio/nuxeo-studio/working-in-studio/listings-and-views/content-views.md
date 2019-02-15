@@ -261,21 +261,21 @@ Here is how these notions are visible in the Nuxeo Platform interface:
 
 Each part of the content view definition in Studio is dedicated to configure each notion explained above:
 
-*   Query definition:
+-   Query definition:
     {{!--     ### nx_asset ###
         path: /default-domain/workspaces/Product Management/Documentation/Documentation Screenshots/Studio/Content Views.1532009021075/Content View - Query Definition
         name: Studio-content-view-query-definition.png
         addins#screenshot#up_to_date
     --}}
     ![Content View - Query Definition](nx_asset://ea36f0ce-04d4-4ef0-af9f-c9a5860aa6fe ?w=600,border=true)
-*   Form definition:
+-   Form definition:
     {{!--     ### nx_asset ###
         path: /default-domain/workspaces/Product Management/Documentation/Documentation Screenshots/Studio/Content Views.1532009021075/Content View - Form Definition
         name: Studio-content-view-form-definition.png
         addins#screenshot#up_to_date
     --}}
     ![Content View - Form Definition](nx_asset://9f935e93-32c1-4592-9caf-ac0fd698cdbc ?w=600,border=true)
-*   Result Display definition:
+-   Result Display definition:
     {{!--     ### nx_asset ###
         path: /default-domain/workspaces/Product Management/Documentation/Documentation Screenshots/Studio/Content Views.1532009021075/Content View - Results Form
         name: Studio-content-view-results-definition.png
