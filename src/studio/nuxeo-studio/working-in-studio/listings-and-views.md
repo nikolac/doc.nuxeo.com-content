@@ -51,9 +51,7 @@ history:
 ---
 {{#> callout type='info' }}
 {{! multiexcerpt name='jsf-ui-target-package-requirement'}}
-
 Select the Nuxeo JSF UI target package in your [Application Definition]({{page page='application-definition'}}) for this menu item to be available.
-
 {{! /multiexcerpt}}
 {{/callout}}
 
