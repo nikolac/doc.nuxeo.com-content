@@ -1,5 +1,6 @@
 ---
 title: Nuxeo Live Connect
+description: Live Connect allows you to create a content application that handles cloud files (Dropbox, Google Drive, Box, OneDrive...) as if they were local files. Files remain in the cloud but they are referenced in the Nuxeo repository as if they were stored within it.
 review:
     comment: ''
     date: '2017-12-15'
@@ -306,8 +307,8 @@ Browsers that block pop-ups may affect the behavior of Nuxeo Live Connect. If yo
 {{/callout}}
 
 {{#> callout type='info' heading='Nuxeo University'}}
-Watch the related courses on Nuxeo University
-- [Video on Live Connect](https://university.nuxeo.com/learn/public/course/view/elearning/56/understanding-live-connect).
+Watch the related courses on Nuxeo University:</br>
+[Video on Live Connect](https://university.nuxeo.com/learn/public/course/view/elearning/56/understanding-live-connect).
 ![]({{file name='university-live-connect.png' page='nxdoc/university'}} ?w=450,border=true)
 {{/callout}}
 
@@ -354,14 +355,14 @@ The table below shows the available features for each default implementation.
 <tr>
 <td colspan="1">Download URL</td>
 <td colspan="1">Yes</td>
-<td colspan="1">Yes<sup>*</sup></td>
+<td colspan="1">Yes<sup>\*</sup></td>
 <td colspan="1">Yes</td>
 <td colspan="1">Yes</td>
 </tr>
 <tr>
 <td colspan="1">Full-text indexation</td>
 <td colspan="1">Yes</td>
-<td colspan="1">Yes<sup>*</sup>
+<td colspan="1">Yes<sup>\*</sup>
 </td>
 <td colspan="1">Yes</td>
 <td colspan="1">Yes</td>
@@ -369,20 +370,20 @@ The table below shows the available features for each default implementation.
 <tr>
 <td colspan="1">PDF conversion</td>
 <td colspan="1">Yes</td>
-<td colspan="1">Yes<sup>*</sup>
+<td colspan="1">Yes<sup>\*</sup>
 </td>
-<td colspan="1">Yes<sup>*</sup>
+<td colspan="1">Yes<sup>\*</sup>
 </td>
-<td colspan="1">Yes<sup>*</sup>
+<td colspan="1">Yes<sup>\*</sup>
 </td>
 </tr>
 <tr>
 <td colspan="1">Preview</td>
 <td colspan="1">Yes</td>
-<td colspan="1">Yes<sup>*</sup>
+<td colspan="1">Yes<sup>\*</sup>
 </td>
 <td colspan="1">Yes</td>
-<td colspan="1">Yes<sup>*</sup>
+<td colspan="1">Yes<sup>\*</sup>
 </td>
 </tr>
 <tr>
@@ -402,10 +403,10 @@ The table below shows the available features for each default implementation.
 <tr>
 <td colspan="1">Versioning</td>
 <td colspan="1">Yes (non-native Google Drive documents)</td>
-<td colspan="1">Yes<sup>*</sup>
+<td colspan="1">Yes<sup>\*</sup>
 </td>
 <td colspan="1">Yes</td>
-<td colspan="1">Yes<sup>*</sup>
+<td colspan="1">Yes<sup>\*</sup>
 </td>
 </tr>
 <tr>
@@ -414,9 +415,12 @@ The table below shows the available features for each default implementation.
 <td colspan="1">Yes</td>
 <td colspan="1">Yes</td>
 <td colspan="1">Yes</td>
-</tr></tbody></table></div>
+</tr>
+</tbody>
+</table>
+</div>
 
-<sup>*</sup> _Provided by the Nuxeo Platform_
+<sup>\*</sup> _Provided by the Nuxeo Platform_
 
 ## Functional Overview
 

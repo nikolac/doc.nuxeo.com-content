@@ -1,5 +1,7 @@
 ---
 title: Customize Your App with Nuxeo Elements
+description: 'This tutorial shows you how to build a simple application base on the Polymer Starter Kit, which
+will be able to read documents from a Nuxeo instance.'
 review:
     comment: 'This tutorial needs to be reviewed after migration to Polymer 2.0 legacy API.'
     date: '2017-12-15'
@@ -19,7 +21,7 @@ tree_item_index: 200
 ---
 
 This tutorial shows you how to build a simple application base on the Polymer Starter Kit, which
-will be able to read documents from a Nuxeo instance.  You'll learn how to create a new element and gradually
+will be able to read documents from a Nuxeo instance. You'll learn how to create a new element and gradually
 improve it using both `nuxeo-elements` and `nuxeo-ui-elements`.
 
 {{#> callout type='info'}}

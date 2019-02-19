@@ -1,5 +1,6 @@
 ---
 title: Basic Widget Types
+description: A series of widget types is available for the most basic uses cases.
 review:
     comment: ''
     date: '2015-12-01'
@@ -68,9 +69,7 @@ history:
 
 ---
 {{! excerpt}}
-
 A series of widget types is available for the most basic uses cases.
-
 {{! /excerpt}}
 
 ## {{> anchor 'widget-text'}}text
