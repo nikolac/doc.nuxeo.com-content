@@ -97,16 +97,18 @@ In **Configuration**, go to **Page Providers**, click on **New** and name it `Se
 
 1. Add another new Predicates.
 1. Click on **Edit binding** and select `schema:contract`&nbsp;> `owner`.
+1. Save your changes.
 
-You can now save your changes and go to the Studio Designer.
+Now, click on **Configure layouts in Designer** at the top-right of your screen.
+You are now in Studio Designer, where you can configure the layouts of your Search.
 
 ## Create a Search Layout
 
-In the Studio Designer, in the **UI** tab, under **Layouts** > **Page Providers** you will find your page provider created previously.
+In the Studio Designer, you are now in the **UI** tab, under **Layouts** > **Page Providers**. You will find the page provider created previously.
 
 {{{multiexcerpt 'quick-switcher' page='web-ui-document-layouts'}}}
 
-Click on your page provider, two layouts are available. Let's edit the **Form** layout first.
+Two layouts are available. Let's edit the **Form** layout first.
 
 1. Click on **form**, then **Configure**.
    The form layout is now displayed in bold. On the right, in the properties catalog, the elements that we defined in Studio are displayed here.

@@ -314,13 +314,11 @@ CREATE A PAGE PROVIDER FOR A CUSTOM DOCUMENT
 
 1.  In Studio, select **Page Providers**, then **New**.
 
-1.  We'll give our page provider the ID `contract`. To the existing query filter, we'll add:
+1.  We'll give our page provider the ID `contract`. To filter our custom document type `BCContract`, we'll add to the existing query filter:
 
 ```sql
 AND ecm:primaryType = 'BCContract'
 ```
-
-which will filter our custom document type, `BCContract`.
 
 {{#> callout type='tip' }}
 You can add to the query filter to further tailor your search results. Try filtering out contracts that haven't been cancelled!
@@ -360,11 +358,17 @@ You can add to the query filter to further tailor your search results. Try filte
   </div>
 1.  Save your Page Provider.
 
+In **Designer**, go to **UI** > **Layouts** > **Page Providers**, select **contract** and open **form** to configure the form layout.
+Once you are all set, click on **Configure layouts in Designer** at the top-right of your screen.
+You are now in Studio Designer, where you can configure the layouts of your Search.
+
 ### Search Drawer
 
 CUSTOMIZE A SEARCH
 
-In **Designer**, go to **UI** > **Layouts** > **Page Providers**, select **contract** and open **form** to configure the form layout.
+In the Studio Designer, you are now in the **UI** tab, under **Layouts** > **Page Providers**. You will find the page provider created previously.
+
+1.  Open **form** to configure the form layout.
 
 1.  Drag the search elements from the menu on the right into the form and modify the labels as needed.
 

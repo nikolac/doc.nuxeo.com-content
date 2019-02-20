@@ -80,22 +80,19 @@ Now we will add aggregates to customize the search.
    </div>
 1. Save your changes.
 
+Once you are all set, click on **Configure layouts in Designer** at the top-right of your screen.
+You are now in Studio Designer, where you can configure the layouts of your Search.
+
 ### Configure Layouts
 
-Once you are all set, you can navigate to the Studio Designer to configure your layouts.
+In the Studio Designer, you are now in the **UI** tab, under **Layouts** > **Page Providers**. You will find the page provider created previously.
 
-1. In **UI**, go to **Layouts** > **Page Providers** > **otherContracts**
 1. Click on **form** and then **Configure**, it will automatically create the `nuxeo-othercontracts-search-form` layout.
-1. Do the same with the **result** button, click on **Configure**, the `nuxeo-othercontracts-search-results` layout is created.
+1. Click on **result** and then **Configure**, the `nuxeo-othercontracts-search-results` layout is created.
 
 ## Create a Listing
 
-<!--Go to the Designer:
-
-1. Click on **UI** > **Tabs**
-1. Hover over the Create button ![]({{file version='' space='nxdoc' page='web-ui-overview' name='create_button.png'}} ?w=20) and select the **Listing** type ![]({{file name='listing_button.png'}} ?w=20)-->
-
-From the previous screen, Page Provider for **otherContracts**:
+From the Page Provider screen for **otherContracts**:
 
 1. In Bind More Elements, select **Tab**.
 1. Name it `other-contracts`.
