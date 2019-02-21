@@ -211,8 +211,9 @@ This field is directly related to the **BC Contract** document type, but if you 
 {{/callout}}
 
 1.  Save your changes and click on the **Designer** button.
-
-1.  Go to **Local Types** > **BCCONTRACT** and drag and drop the new property `refundAmount` from **Catalog** in the right menu to the view layout, then save.
+1.  Go to **Local Types** > **BCCONTRACT**.
+1.  In the **view** layout, click **Configure**.
+1.  Drag and drop the new property `refundAmount` from **Catalog** in the right menu to the Main View and then save.
 
 {{#> callout type='tip' }}
 Using the code editor ![]({{file name='code_editor.png'}} ?w=25), you can drag and drop the property into a Polymer `dom-if` template. The one we've created will only appear in the document view layout if the contract has been cancelled.
