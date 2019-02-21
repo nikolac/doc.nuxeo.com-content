@@ -94,7 +94,7 @@ In the Studio Designer, you are now in the **UI** tab, under **Layouts** > **Pag
 
 From the Page Provider screen for **otherContracts**:
 
-1. In Bind More Elements, select **Tab**.
+1. In **Bind More Elements**, select **Tab**.
 1. Name it `other-contracts`.
 1. Fill in the creation form like this:
    ![]({{file name='other-contract.png'}} ?w=450,border=true)
