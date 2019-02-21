@@ -1,5 +1,6 @@
 ---
 title: 'HOWTO: Insert a New Tab'
+description: Learn how to add a new tab to a custom document type.
 review:
   comment: ''
   date: '2019-02-18'
@@ -23,7 +24,11 @@ labels:
 tree_item_index: 1400
 ---
 
-In this tutorial you will learn how to add a new tab to your custom document type. This tab will help you to find other contracts created for the same contract owner. To do so, we'll be using a custom page provider linked to the Contract document type.
+{{! excerpt}}
+Learn how to add a new tab to a custom document type.
+{{! /excerpt}}
+
+This tab will help you to find other contracts created for the same contract owner. To do so, we'll be using a custom page provider linked to the Contract document type.
 
 ## Prerequisites
 
@@ -94,7 +99,7 @@ In the Studio Designer, you are now in the **UI** tab, under **Layouts** > **Pag
 
 From the Page Provider screen for **otherContracts**:
 
-1. In **Bind More Elements**, select **Tab**.
+1. In **Bind More Elements**, select **Tab** to create a tab.
 1. Name it `other-contracts`.
 1. Fill in the creation form like this:
    ![]({{file name='other-contract.png'}} ?w=450,border=true)

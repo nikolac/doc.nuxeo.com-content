@@ -1,5 +1,6 @@
 ---
 title: 'HOWTO: Configure Searches'
+description: Learn how to create a new search screen with an icon in the left menu. The search will be compose of a full text search, a search by date range, a search by owners and finally by tags.
 review:
   comment: ''
   date: '2019-02-18'
@@ -24,7 +25,9 @@ tree_item_index: 400
 
 After having created your own [document type]({{page page='web-ui-document-layouts'}}#how-to-define-a-new-document-type-layout-with-the-view-designer) you will probably want to create your own search.
 
-We will learn how to create a new search screen with an icon in the left menu. The search will be compose of a full text search, a search by date range, a search by owners and finally by tags.
+{{! excerpt}}
+Learn how to create a new search screen with an icon in the left menu. The search will be compose of a full text search, a search by date range, a search by owners and finally by tags.
+{{! /excerpt}}
 
 {{#> callout type='info'}}
 Watch the related courses on Nuxeo University
@@ -111,7 +114,7 @@ In the Studio Designer, you are now in the **UI** tab, under **Layouts** > **Pag
 Two layouts are available. Let's edit the **Form** layout first.
 
 1. Click on **form**, then **Configure**.
-   The form layout is now displayed in bold. On the right, in the properties catalog, the elements that we defined in Studio are displayed here.
+   The form layout is now displayed in bold. On the right, in the properties catalog, the elements that we defined in Studio are displayed.
 1. Expand the first element and drag and drop the **Edit** mode into the editor.
    Do the same for the three other elements.
 1. Once it's done, click on the **Full text** element on the main view, you can edit the label in the left catalog to display `Full text`. You can do the same with the other elements.
@@ -125,8 +128,7 @@ Let's configure the **results** layout now.
 
 The next step is to add a button in the left menu to display the search screen.
 
-1. In the same screen, in **Bind more elements**, select **Drawer item search**.
-   <!--1. Roll over the Create button and select the Search type ![]({{file name='search-icon-drawer-vd.png'}} ?w=20).-->
+1. In the same screen, in **Bind more elements**, select **Drawer item search** to create your menu item.
 1. Fill in the page like this:
 
 - Name: Contract

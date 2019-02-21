@@ -212,7 +212,7 @@ This field is directly related to the **BC Contract** document type, but if you 
 
 1.  Save your changes and click on the **Designer** button.
 1.  Go to **Local Types** > **BCCONTRACT**.
-1.  In the **view** layout, click **Configure**.
+1.  In the **view** layout, click **Edit**.
 1.  Drag and drop the new property `refundAmount` from **Catalog** in the right menu to the Main View and then save.
 
 {{#> callout type='tip' }}
@@ -285,7 +285,7 @@ CONFIGURE A WORKFLOW
     On the **Transitions** tab, add a `confirmRefund` button, then link the confirm button to the `BCContract_CancelPartialRefund_AC` automation chain.
 
 1.  On the Variables tab, ensure that the refundAmount variable is editable in this task.
-    Finally, reorganize the nodes and transitions to implement our new logic, and save. You should have something like this:
+1.  Finally, reorganize the nodes and transitions to implement our new logic, and save. You should have something like this:
 
 ![workflow]({{file name='workflow-final.png'}} ?w=450)
 
@@ -359,7 +359,6 @@ You can add to the query filter to further tailor your search results. Try filte
   </div>
 1.  Save your Page Provider.
 
-In **Designer**, go to **UI** > **Layouts** > **Page Providers**, select **contract** and open **form** to configure the form layout.
 Once you are all set, click on **Configure layouts in Designer** at the top-right of your screen.
 You are now in Studio Designer, where you can configure the layouts of your Search.
 
@@ -392,7 +391,7 @@ In the Studio Designer, you are now in the **UI** tab, under **Layouts** > **Pag
         <td>Label</td>
         <td>**Contract Search**</td>
       </tr>
-      <tr>
+      <tr>t
         <td>Icon</td>
         <td>Select an icon of your choice.</td>
       </tr>
