@@ -51,7 +51,7 @@ Get an overview of what can be done with Nuxeo Studio and how you can create you
 
 ### [Working with Studio Modeler]({{page page='working-in-studio'}})
 
-In this chapter we will explain each screen exposed by Nuxeo Studio. If you are blocked in your configuration process on a specific screen!
+In this chapter we will explain each screen exposed by Studio Modeler. If you are blocked in your configuration process on a specific screen!
 
 - [Documents]({{page page='documents'}})
 - [Page Providers]({{page version='' space='studio' page='page-providers'}})
@@ -60,13 +60,13 @@ In this chapter we will explain each screen exposed by Nuxeo Studio. If you are 
 
 {{/panel}}</div></div><div class="row" data-equalizer data-equalize-on="medium"><div class="column medium-6">{{#> panel type='secondary' match_height='true'}}
 
-### [Administering your project]({{page page='administering-your-project'}})
+### [Working with Studio Designer]({{page version='' space='studio' page='working-in-view-designer'}})
 
-This section provides you an overview of how you can manage your own application (versioning, naming, etc.)
+Discover with each screen how to configure your interface.
 
-- [How to Enable Package Specific Features in Studio for DAM or DM]({{page page='how-to-enable-package-specific-features-in-studio-for-dam-or-virtual-navigation'}})
-- [Use Registries for Referencing Externally Defined Objects]({{page page='registries'}})
-- [Update the Version of Your Target Platform]({{page page='update-the-version-of-your-target-platform'}})
+- [UI]({{page version='' space='studio' page='ui-designer'}})
+- [Resources]({{page version='' space='studio' page='resources'}})
+- [Editor]({{page version='' space='studio' page='main-view'}})
 
 {{/panel}}</div><div class="column medium-6">{{#> panel type='secondary' match_height='true'}}
 
@@ -74,7 +74,8 @@ This section provides you an overview of how you can manage your own application
 
 The goal of this section is to provide ready to use examples. They can be followed step by step to learn how to use Studio on practical use cases.
 
-- [Deploying Your Project in Dev Mode]({{page page='deploying-your-project-in-dev-mode'}})
+- [How to Collaborate on a Studio Project ]({{page page='how-to-collaborate-on-a-studio-project'}})
+- [How to Configure your Login Page]({{page version='' space='studio' page='branding'}})
 - [From the JSF UI to Nuxeo Studio]({{page space='nxdoc' page='from-the-jsf-ui-to-nuxeo-studio'}})
 
 {{/panel}}</div></div>
