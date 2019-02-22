@@ -165,22 +165,10 @@ labels:
 
 ### Web UI
 
-Web UI is the new UI for Nuxeo Server. Thanks to its great flexibility, it is the ideal start for any Digital Asset Management, Case Management or Document Management project. Web UI is made with great client side web technology and adopts most recent standards of the Web.
+Web UI is the UI for Nuxeo Server. Thanks to its great flexibility, it is the ideal start for any Digital Asset Management, Case Management or Document Management project. Web UI is made with great client side web technology and adopts most recent standards of the Web.
 
 [Discover&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i>]({{page page='web-ui'}})
 
-{{/panel}}
-
-</div>
-
-<div class="column medium-6">
-{{#> panel type='secondary' match_height='true'}}
-
-### JSF UI
-
-JSF UI offers a complete User Interface for Nuxeo Server, fully extensible and configurable: forms, process, user actions. It is very easy to implement your business process on top of Nuxeo JSF UI with Nuxeo Studio.
-
-[Discover&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i>]({{page page='jsf-ui'}})
 {{/panel}}
 
 </div>
