@@ -1,47 +1,43 @@
 ---
 title: Nuxeo Studio
 review:
-    comment: ''
-    date: ''
-    status: ok
+  comment: ''
+  date: ''
+  status: ok
 is_overview: true
 notes: >-
-    Documentation page used by the Marketing team. Check with Marketing before deleting or moving.
+  Documentation page used by the Marketing team. Check with Marketing before deleting or moving.
 confluence:
-    ajs-parent-page-id: '1409040'
-    ajs-parent-page-title: Nuxeo Online Services
-    ajs-space-key: Studio
-    ajs-space-name: Nuxeo Online Services
-    canonical: Nuxeo+Studio
-    canonical_source: 'https://doc.nuxeo.com/display/Studio/Nuxeo+Studio'
-    page_id: '19793788'
-    shortlink: fAcuAQ
-    shortlink_source: 'https://doc.nuxeo.com/x/fAcuAQ'
-    source_link: /display/Studio/Nuxeo+Studio
+  ajs-parent-page-id: '1409040'
+  ajs-parent-page-title: Nuxeo Online Services
+  ajs-space-key: Studio
+  ajs-space-name: Nuxeo Online Services
+  canonical: Nuxeo+Studio
+  canonical_source: 'https://doc.nuxeo.com/display/Studio/Nuxeo+Studio'
+  page_id: '19793788'
+  shortlink: fAcuAQ
+  shortlink_source: 'https://doc.nuxeo.com/x/fAcuAQ'
+  source_link: /display/Studio/Nuxeo+Studio
 tree_item_index: 200
 history:
-    -
-        author: Manon Lumeau
-        date: '2016-07-12 09:01'
-        message: ''
-        version: '4'
-    -
-        author: Solen Guitter
-        date: '2014-12-30 17:00'
-        message: ''
-        version: '3'
-    -
-        author: Solen Guitter
-        date: '2014-07-15 16:07'
-        message: ''
-        version: '2'
-    -
-        author: Solen Guitter
-        date: '2014-07-15 16:06'
-        message: ''
-        version: '1'
-
+  - author: Manon Lumeau
+    date: '2016-07-12 09:01'
+    message: ''
+    version: '4'
+  - author: Solen Guitter
+    date: '2014-12-30 17:00'
+    message: ''
+    version: '3'
+  - author: Solen Guitter
+    date: '2014-07-15 16:07'
+    message: ''
+    version: '2'
+  - author: Solen Guitter
+    date: '2014-07-15 16:06'
+    message: ''
+    version: '1'
 ---
+
 <div class="row" data-equalizer data-equalize-on="medium"><div class="column medium-6">{{#> panel type='secondary' match_height='true'}}
 
 ### Getting started
@@ -58,7 +54,7 @@ Get an overview of what can be done with Nuxeo Studio and how you can create you
 In this chapter we will explain each screen exposed by Nuxeo Studio. If you are blocked in your configuration process on a specific screen!
 
 - [Documents]({{page page='documents'}})
-- [Content Views]({{page page='content-views'}})
+- [Page Providers]({{page version='' space='studio' page='page-providers'}})
 - [Workflow]({{page page='workflow'}})
 - [Automation]({{page page='automation'}})
 
@@ -85,8 +81,9 @@ The goal of this section is to provide ready to use examples. They can be follow
 
 {{#> callout type='info' heading='Nuxeo University'}}
 Watch the related courses on Nuxeo University
+
 - [Learning Plan on Nuxeo Studio](https://university.nuxeo.com/learn/public/learning_plan/view/5/nuxeo-studio-foundations)
-![]({{file version='' space='nxdoc' page='university' name='university-studio-learning-plan.png'}} ?w=450,border=true)
-{{/callout}}
+  ![]({{file version='' space='nxdoc' page='university' name='university-studio-learning-plan.png'}} ?w=450,border=true)
+  {{/callout}}
 
 {{{multiexcerpt 'license' page='NXDOC:Developer Documentation Center'}}}
